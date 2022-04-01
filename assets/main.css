@@ -1,0 +1,13 @@
+:root{
+    /* FONT SIZE */
+    /* .5rem = 8px | 1 rem = 16px */
+
+    --tiny-font: 0.5rem; 
+    --smaller-font: 0.75rem;
+    --small-font: 1rem;
+}
+
+.intro p{
+
+    font-size: var(--tiny-font);
+}
