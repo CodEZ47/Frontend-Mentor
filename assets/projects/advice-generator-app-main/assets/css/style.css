@@ -1,0 +1,72 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    /* Colors */
+    --primary-color: hsl(193, 38%, 86%);
+    --action-color: hsl(150, 100%, 66%);
+
+    --neutral-color: hsl(217, 19%, 38%);
+    --secondary-color: hsl(217, 19%, 24%);
+    --secondary-color-alt: hsl(218, 23%, 16%);
+
+    --link-color: hsl(228, 45%, 44%);
+
+    /* Font */
+    /* 1rem = 28px */
+
+    font-size: 175%;
+
+    --smallest-font: 0.4rem;
+    --small-font: 0.75rem;
+    --normal-font: 1rem;
+    --big-font: 1.25rem;
+
+    --body-font: font-family: 'Manrope', sans-serif;
+
+
+}
+
+body{
+
+    background-color: var(--secondary-color-alt);
+}
+
+.card-container{
+
+    border: solid var(--action-color) 2px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+
+    border: solid var(--primary-color) 2px;
+}
+
+.button{
+    border: solid var(--action-color) 2px;
+}
+
+
+
+
+.attribution { 
+
+    font-size:  var(--smallest-font); 
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+.attribution a { 
+
+    color: var(--link-color); 
+}
