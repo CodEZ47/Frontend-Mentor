@@ -43,8 +43,8 @@ body{
 
 .card-container{
 
-    /* border: solid var(--action-color) 2px; */
-    width: 100%;
+    border: solid var(--action-color) 2px;
+    /* width: 100%; */
     padding: 0;
     position: fixed;
     top: 50%;
