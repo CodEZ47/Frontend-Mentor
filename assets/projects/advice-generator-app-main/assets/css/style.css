@@ -43,7 +43,7 @@ body{
 
 .card-container{
 
-    border: solid var(--action-color) 2px;
+    /* border: solid var(--action-color) 2px; */
     width: 100%;
     padding: 0;
     position: fixed;
@@ -59,7 +59,7 @@ body{
 
 .card{
 
-    border: solid var(--action-color) 2px;
+    
     width: 30vw;
     height: auto;
     background-color: var(--secondary-color);
@@ -71,19 +71,34 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid var(--action-color) 2px;
-    bottom: 1rem;
+    /* border: solid var(--action-color) 2px; */
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
     
 }
 
-.advice{
+#advice-no{
+    color: var(--action-color);
+    text-align: center;
+    font-size: var(--small-font);
+    /* border: solid var(--action-color) 2px; */
 
-    border: solid var(--action-color) 2px;
-    overflow: hidden;
+}
+
+#advice {
+
+    
+    color: var(--primary-color);
+    text-align: center;
+    /* border: solid var(--action-color) 2px; */
+
+}
+
+.advice-container > picture > img {
+    width: 100%;
+    height: auto;
 }
 
 .button-container {
@@ -96,13 +111,13 @@ body{
     padding: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
     cursor: pointer;
 }
 
 .button-container :hover{
 
-    box-shadow: 0px 0px 20px 5px var(--action-color);
+    box-shadow: 0px 0px 30px 0px var(--action-color);
 }
 
 .button-container button {
@@ -122,10 +137,11 @@ body{
 
 .attribution { 
 
-    font-size:  var(--smallest-font); 
+    font-size:  var(--smallest-font);
+    color: var(--primary-color); 
     position: fixed;
     bottom: 0;
-    left: 50%;
+    left: 40%;
 }
 .attribution a { 
 
