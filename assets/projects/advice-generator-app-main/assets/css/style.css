@@ -38,13 +38,16 @@
 
 body{
 
+    width: 100%;
+    height: 100%;
     background-color: var(--secondary-color-alt);
 }
 
 .card-container{
 
-    border: solid var(--action-color) 2px;
+    /* border: solid var(--action-color) 2px; */
     /* width: 100%; */
+    height: auto;
     padding: 0;
     position: absolute;
     top: 50%;
