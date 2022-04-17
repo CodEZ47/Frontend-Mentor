@@ -21,7 +21,7 @@
     font-size: 175%;
 
     --smallest-font: 0.4rem;
-    --small-font: 0.75rem;
+    --small-font: 0.7rem;
     --normal-font: 1rem;
     --big-font: 1.25rem;
 
@@ -89,6 +89,7 @@ body{
     color: var(--action-color);
     text-align: center;
     font-size: var(--small-font);
+    font-family: var(--body-font);
     /* border: solid var(--action-color) 2px; */
 
 }
@@ -98,6 +99,8 @@ body{
     
     color: var(--primary-color);
     text-align: center;
+    font-family: var(--body-font);
+    font-size: var(--normal-font);
     /* border: solid var(--action-color) 2px; */
 
 }
@@ -110,8 +113,8 @@ body{
 
 .button-container {
 
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border: solid var(--action-color) 2px;
     background-color: var(--action-color);
     border-radius: 50%;
