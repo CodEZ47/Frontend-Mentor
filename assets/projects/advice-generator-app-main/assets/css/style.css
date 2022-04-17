@@ -39,7 +39,7 @@
 body{
 
     width: 100%;
-    height: auto;
+    height: 1000px;
     background-color: var(--secondary-color-alt);
 }
 
@@ -142,10 +142,11 @@ body{
 .attribution { 
 
     /* border: solid var(--action-color) 2px; */
+    /* height: 2rem; */
     font-size:  var(--smallest-font);
     color: var(--primary-color);
-    margin-top: 200px; 
-    position: absolute;
+    /* margin-top: 200px;  */
+    position: fixed;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0%);
