@@ -46,11 +46,11 @@ body{
 .card-container{
 
     /* border: solid var(--action-color) 2px; */
-    /* width: 100%; */
+    width: 100%;
     height: auto;
     padding: 0;
     margin:0;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -65,7 +65,7 @@ body{
 .card{
 
     
-    width: 30vw;
+    width: 100%;
     height: auto;
     background-color: var(--secondary-color);
     border-radius: 15px;
@@ -104,6 +104,7 @@ body{
 .advice-container > picture > img {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .button-container {
