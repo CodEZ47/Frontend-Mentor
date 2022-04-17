@@ -45,7 +45,7 @@ body{
 
 .card-container{
 
-    /* border: solid var(--action-color) 2px; */
+    border: solid var(--action-color) 2px;
     /* width: 100%; */
     height: auto;
     padding: 0;
