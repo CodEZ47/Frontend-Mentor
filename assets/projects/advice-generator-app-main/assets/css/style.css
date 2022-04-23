@@ -25,7 +25,8 @@
     --normal-font: 1rem;
     --big-font: 1.25rem;
 
-    --body-font: font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    --body-font: Manrope;
 
 
     /* z index */
